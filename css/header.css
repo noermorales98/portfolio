@@ -3,11 +3,6 @@
     src: url("fonts/OpenSauceSans-Regular.ttf");
 }
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
 nav {
     display: inline-flex;
@@ -37,7 +32,7 @@ header {
     font-family: LogoFont;
 }
 
-.logo a{
+.logo a {
     color: black;
     text-decoration: none;
     display: inline-flex;
@@ -46,12 +41,12 @@ header {
     font-size: 25px;
 }
 
-.logo img{
+.logo img {
     width: 50px;
     padding: 10px;
 }
 
-.menu{
+.menu {
     float: right;
     height: 100%;
     display: inline-flex;
@@ -62,16 +57,45 @@ header {
     align-items: center;
 }
 
-.menu li{
+.menu li {
     padding: 20px;
     list-style-type: none;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     color: black;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     color: #5271ff;
+}
+
+.menu-bar-li {
+    display: none;
+}
+
+
+@media screen and (max-width:799px) {
+
+    .logo img {
+        width: 35px;
+        padding: 20px;
+    }
+
+    header {
+        height: 10vh !important;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .menu-bar-li {
+        display: block;
+    }
 }

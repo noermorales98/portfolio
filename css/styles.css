@@ -1,3 +1,9 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     font-size: 100px;
     margin: 0;
@@ -12,8 +18,14 @@ h3{
     font-size: 30px;
 }
 
+li p{
+    color: #989797;
+    font-size: 15px;
+}
+
 .container{
     margin: auto;
+    width: 100%;
 }
 
 p{
@@ -30,22 +42,3 @@ p{
     border-radius: 50px;
 }
 
-/*seccion 3*/
-.seccion3{
-    width: 90%;
-    margin: auto;
-    height: 80vh;
-}
-
-.seccion3 img{
-    width: 400px;
-}
-
-.seccion3 .left{
-    text-align: center;
-    padding: 80px;
-}
-
-.seccion3 .right{
-    padding: 80px;
-}
