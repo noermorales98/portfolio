@@ -1,0 +1,101 @@
+.flex{
+    display: flex;
+}
+
+
+.seccion1{
+    height: 80vh;
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+.left{
+    width: 50%;
+    margin: auto    ;
+}
+
+
+
+.right{
+    width: 50%;
+    margin: auto;
+}
+
+.avatar{
+    height: 80%;
+    display: inline-grid;
+    justify-items: center;
+    position: relative;
+}
+
+.avatar img{
+    width: 80%;
+}
+
+.avatar-objects{
+    position: absolute;
+    z-index: -1;
+    width: 90%!important;
+    animation: turn1 10s linear infinite;
+}
+
+@keyframes turn1{
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+.info{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.skills{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.skills ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.skills li{
+    background-color: aliceblue;
+    padding: 40px 40px;
+    margin: 10px;
+    border-radius: 25px;
+    list-style-type: none; 
+    box-shadow: 2px 2px 20px #84848429;
+}
+
+.icon{
+    padding: 20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    box-shadow: 0px 0px 8px 1px #0000001a;
+}
+
+li p{
+    color: #989797;
+    font-size: 15px;
+}
+
+/*seccion 2*/
+
+.seccion2{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+}

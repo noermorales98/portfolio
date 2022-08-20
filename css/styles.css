@@ -1,0 +1,51 @@
+h1{
+    font-size: 100px;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.container{
+    margin: auto;
+}
+
+p{
+    font-size: 22px;
+    color: #666;
+    margin: 0;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+/*seccion 3*/
+.seccion3{
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+}
+
+.seccion3 img{
+    width: 400px;
+}
+
+.seccion3 .left{
+    text-align: center;
+    padding: 80px;
+}
+
+.seccion3 .right{
+    padding: 80px;
+}
