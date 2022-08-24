@@ -11,6 +11,7 @@
     margin: auto;
     display: inline-flex;
     align-items: center;
+    padding-bottom: 10vh;
 }
 
 .seccion1 p {
@@ -97,7 +98,7 @@
 /*seccion2*/
 
 .seccion2 {
-    width: 70%;
+    width: 80%;
     height: 100vh;
     margin: auto;
     padding-bottom: 50px;
@@ -119,18 +120,36 @@
 .skills ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 0px;
     grid-auto-rows: minmax(100px, auto);
+    color: black;
 }
 
+
+.skills p {
+    color: black;
+}
+
+
 .skills li {
-    background-color: aliceblue;
+    background-color: white!important;
     padding: 40px 40px;
     margin: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
     list-style-type: none;
-    box-shadow: 2px 2px 20px #84848429;
+    /* box-shadow: 2px 2px 20px #84848429; */
 }
+
+/* #javascript:hover{
+    background: #ffeb00!important;
+    box-shadow: 2px 2px 100px #ffea0089!important;
+}
+
+#html:hover{
+    background: #ff5722!important;
+    color: white!important;
+} */
+
 
 .icon {
     padding: 20px;
@@ -139,7 +158,8 @@
     height: 20px;
     display: block;
     text-align: center;
-    box-shadow: 0px 0px 8px 1px #0000001a;
+    color: white;
+    /* box-shadow: 0px 0px 8px 1px #0000001a; */
 }
 
 @media screen and (max-width:799px) {
