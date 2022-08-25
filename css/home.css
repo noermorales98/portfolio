@@ -137,7 +137,11 @@
     margin: 10px;
     border-radius: 15px;
     list-style-type: none;
-    /* box-shadow: 2px 2px 20px #84848429; */
+   
+}
+
+.skills li:hover {
+     box-shadow: 2px 2px 20px #84848429;
 }
 
 /* #javascript:hover{
@@ -312,6 +316,12 @@
     box-shadow: 2px 2px 2px #84848429;
 }
 
+.seccion4 li:hover {
+    box-shadow: 2px 2px 20px #848484cb;
+    background: white!important;
+}
+
+
 .tags ul {
     padding-top: 10px;
 }
@@ -322,6 +332,10 @@
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
     box-shadow: none;
     white-space: nowrap;
+}
+
+.tags li:hover {
+    box-shadow: none;
 }
 
 .icons {
@@ -429,8 +443,16 @@ form {
     cursor: pointer;
 }
 
+.contact span {
+    font-weight: 600;
+}
+
 input:-internal-autofill-selected {
     background-image: none !important;
     background-color: white !important;
     color: fieldtext !important;
+}
+
+input, textarea {
+    font-family: system-ui;
 }
