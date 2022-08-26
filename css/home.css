@@ -14,6 +14,12 @@
     padding-bottom: 10vh;
 }
 
+#main {
+    background: url(../img/object-gradient.png);
+    object-fit: cover;
+    background-size: 100% 100%;
+}
+
 .seccion1 p {
     padding-left: 10px;
 }
@@ -37,13 +43,17 @@
     position: relative;
 }
 
+.avatar-noe {
+    z-index: 2;
+}
+
 .avatar img {
     width: 80%;
 }
 
 .avatar-objects {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     width: 90% !important;
     animation: turn1 10s linear infinite;
 }
@@ -139,32 +149,91 @@
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 44%}
-    20%{background-position:20% 74%}
-    50%{background-position:60% 0%}
-    70%{background-position:70% 88%}
-    100%{background-position:0% 44%}
+    0% {
+        background-position: 0% 44%
+    }
+
+    20% {
+        background-position: 20% 74%
+    }
+
+    50% {
+        background-position: 60% 0%
+    }
+
+    70% {
+        background-position: 70% 88%
+    }
+
+    100% {
+        background-position: 0% 44%
+    }
 }
+
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 44%}
-    20%{background-position:20% 74%}
-    50%{background-position:60% 0%}
-    70%{background-position:70% 88%}
-    100%{background-position:0% 44%}
+    0% {
+        background-position: 0% 44%
+    }
+
+    20% {
+        background-position: 20% 74%
+    }
+
+    50% {
+        background-position: 60% 0%
+    }
+
+    70% {
+        background-position: 70% 88%
+    }
+
+    100% {
+        background-position: 0% 44%
+    }
 }
+
 @-o-keyframes AnimationName {
-    0%{background-position:0% 44%}
-    20%{background-position:20% 74%}
-    50%{background-position:60% 0%}
-    70%{background-position:70% 88%}
-    100%{background-position:0% 44%}
+    0% {
+        background-position: 0% 44%
+    }
+
+    20% {
+        background-position: 20% 74%
+    }
+
+    50% {
+        background-position: 60% 0%
+    }
+
+    70% {
+        background-position: 70% 88%
+    }
+
+    100% {
+        background-position: 0% 44%
+    }
 }
+
 @keyframes AnimationName {
-    0%{background-position:0% 44%}
-    20%{background-position:20% 74%}
-    50%{background-position:60% 0%}
-    70%{background-position:70% 88%}
-    100%{background-position:0% 44%}
+    0% {
+        background-position: 0% 44%
+    }
+
+    20% {
+        background-position: 20% 74%
+    }
+
+    50% {
+        background-position: 60% 0%
+    }
+
+    70% {
+        background-position: 70% 88%
+    }
+
+    100% {
+        background-position: 0% 44%
+    }
 }
 
 /*seccion2*/
@@ -188,6 +257,11 @@
     margin-right: auto;
 }
 
+.skills h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
 .skills ul {
     display: grid;
@@ -210,11 +284,12 @@
     margin: 10px;
     border-radius: 15px;
     list-style-type: none;
+    box-shadow: 2px 2px 2px #84848429;
 
 }
 
 .skills li:hover {
-    box-shadow: 2px 2px 20px #84848429;
+    box-shadow: 2px 2px 20px #848484cb;
 }
 
 /* #javascript:hover{
@@ -274,6 +349,36 @@
 
 
 /*seccion 3*/
+
+#angular:hover {
+    background: #ff6961!important;
+    /* box-shadow: 10px 20px 100px rgba(199, 44, 44, 0.545); */
+}
+
+#node:hover {
+    background: #77dd77!important;
+    /* box-shadow: 10px 20px 100px rgba(44, 199, 70, 0.545); */
+}
+
+#html:hover {
+    background: #fe8a58!important;
+    /* box-shadow: 10px 20px 100px rgba(199, 44, 44, 0.545); */
+}
+
+#javascript:hover {
+    background: #f7e018!important;
+    /* box-shadow: 10px 20px 100px rgba(199, 186, 44, 0.545); */
+}
+
+#css:hover {
+    background: #88b4fc!important;
+    /* box-shadow: 10px 20px 100px rgba(44, 165, 199, 0.545); */
+}
+
+#ionic:hover {
+    background: #84b6f4!important;
+    /* box-shadow: 10px 20px 100px rgba(44, 93, 199, 0.545); */
+}
 .seccion3 {
     width: 90%;
     margin: auto;
@@ -336,6 +441,13 @@
     }
 }
 
+#my-projects {
+    background: url(../img/object-gradient.png);
+    object-fit: cover;
+    background-size: 100% 100%;
+}
+
+
 /*seccion4*/
 .seccion4 {
     padding: 50px;
@@ -387,11 +499,12 @@
     display: inline-flex;
     border-radius: 20px;
     box-shadow: 2px 2px 2px #84848429;
+    transition: box-shadow 0.5s, background 0.5s;
 }
 
 .seccion4 li:hover {
     box-shadow: 2px 2px 20px #848484cb;
-    background: white !important;
+    background: rgb(255, 255, 255) !important;
 }
 
 
@@ -404,7 +517,6 @@
     justify-content: flex-start;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
     box-shadow: none;
-    white-space: nowrap;
 }
 
 .tags li:hover {
