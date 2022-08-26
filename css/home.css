@@ -95,6 +95,80 @@
     }
 }
 
+
+.fulltext {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: inline-grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.fulltext p {
+    font-size: 3rem;
+    color: #fff;
+    font-family: system-ui;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.subtitle {
+    font-size: 22px !important;
+}
+
+
+
+.seccion-2 {
+    width: 95%;
+    border-radius: 25px;
+    height: 90vh;
+    margin: auto;
+    box-shadow: none !important;
+
+}
+
+.seccion-2 {
+    background: url(../img/gradient2.jpg);
+    background-size: 150% 150%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    -o-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    20%{background-position:20% 74%}
+    50%{background-position:60% 0%}
+    70%{background-position:70% 88%}
+    100%{background-position:0% 44%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    20%{background-position:20% 74%}
+    50%{background-position:60% 0%}
+    70%{background-position:70% 88%}
+    100%{background-position:0% 44%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    20%{background-position:20% 74%}
+    50%{background-position:60% 0%}
+    70%{background-position:70% 88%}
+    100%{background-position:0% 44%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 44%}
+    20%{background-position:20% 74%}
+    50%{background-position:60% 0%}
+    70%{background-position:70% 88%}
+    100%{background-position:0% 44%}
+}
+
 /*seccion2*/
 
 .seccion2 {
@@ -132,16 +206,16 @@
 
 
 .skills li {
-    background-color: white!important;
+    background-color: whitesmoke !important;
     padding: 40px 40px;
     margin: 10px;
     border-radius: 15px;
     list-style-type: none;
-   
+
 }
 
 .skills li:hover {
-     box-shadow: 2px 2px 20px #84848429;
+    box-shadow: 2px 2px 20px #84848429;
 }
 
 /* #javascript:hover{
@@ -318,7 +392,7 @@
 
 .seccion4 li:hover {
     box-shadow: 2px 2px 20px #848484cb;
-    background: white!important;
+    background: white !important;
 }
 
 
@@ -453,6 +527,7 @@ input:-internal-autofill-selected {
     color: fieldtext !important;
 }
 
-input, textarea {
+input,
+textarea {
     font-family: system-ui;
 }

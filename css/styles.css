@@ -40,10 +40,13 @@ p {
     background: black;
     padding: 15px 40px;
     border-radius: 50px;
+    box-shadow: none;
+    transition: background 0.5s, box-shadow 0.5s;
 }
 
 .button:hover{
-    background: blue;
+    background: #3866fa;
+    box-shadow: -1px 9px 59px 0px #3866fa6e;
 }
 
 textarea {
