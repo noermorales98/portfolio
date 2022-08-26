@@ -2,6 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     margin: 0;
     padding: 0;
+    background: #e8ebf2;
 }
 
 h1 {
@@ -19,7 +20,7 @@ h3 {
 }
 
 li p {
-    color: #989797;
+    color: black;
     font-size: 15px;
 }
 
@@ -30,23 +31,24 @@ li p {
 
 p {
     font-size: 22px;
-    color: #666;
+    color: black;
     margin: 0;
 }
 
 .button {
     text-decoration: none;
     color: white;
-    background: black;
+    background: #3866fa;
     padding: 15px 40px;
     border-radius: 50px;
     box-shadow: none;
-    transition: background 0.5s, box-shadow 0.5s;
+    transition: background 0.5s, box-shadow 0.5s, color 0.5s;
 }
 
 .button:hover{
     background: #3866fa;
-    box-shadow: -1px 9px 59px 0px #3866fa6e;
+    color: white;
+    box-shadow: -1px 20px 59px 0px #3866fa6e;
 }
 
 textarea {

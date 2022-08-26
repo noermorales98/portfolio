@@ -101,17 +101,15 @@
     width: 80%;
     margin: auto;
     display: inline-grid;
-    align-items: center;
-    justify-items: center;
     align-content: center;
-    text-align: center;
+    text-align: left;
 }
 
 .fulltext p {
     font-size: 3rem;
     color: #fff;
     font-family: system-ui;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 50px;
 }
 
@@ -123,7 +121,7 @@
 
 .seccion-2 {
     width: 95%;
-    border-radius: 25px;
+    border-radius: 15px;
     height: 90vh;
     margin: auto;
     box-shadow: none !important;
@@ -195,6 +193,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
+    padding: 0;
     grid-auto-rows: minmax(100px, auto);
     color: black;
 }
