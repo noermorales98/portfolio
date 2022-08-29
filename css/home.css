@@ -13,12 +13,12 @@
     align-items: center;
     padding-bottom: 10vh;
 }
-
+/* 
 #main {
     background: url(../img/object-gradient.png);
     object-fit: cover;
     background-size: 100% 100%;
-}
+} */
 
 .seccion1 p {
     padding-left: 10px;
@@ -117,7 +117,7 @@
 
 .fulltext p {
     font-size: 3rem;
-    color: #fff;
+    color: black;
     font-family: system-ui;
     font-weight: 300;
     line-height: 50px;
@@ -139,8 +139,8 @@
 }
 
 .seccion-2 {
-    background: url(../img/gradient2.jpg);
-    background-size: 150% 150%;
+    background: url(../img/gradient3.jpg);
+    background-size: 110% 110%;
 
     -webkit-animation: AnimationName 7s ease infinite;
     -moz-animation: AnimationName 7s ease infinite;
@@ -237,6 +237,11 @@
 }
 
 /*seccion2*/
+
+#dark {
+    background: url('../img/gradient-dark.jpg');
+    background-size: 100% 100%;
+}
 
 .seccion2 {
     width: 80%;
@@ -351,38 +356,39 @@
 /*seccion 3*/
 
 #angular:hover {
-    background: #ff6961!important;
+    background: #ff6961 !important;
     /* box-shadow: 10px 20px 100px rgba(199, 44, 44, 0.545); */
 }
 
 #node:hover {
-    background: #77dd77!important;
+    background: #77dd77 !important;
     /* box-shadow: 10px 20px 100px rgba(44, 199, 70, 0.545); */
 }
 
 #html:hover {
-    background: #fe8a58!important;
+    background: #fe8a58 !important;
     /* box-shadow: 10px 20px 100px rgba(199, 44, 44, 0.545); */
 }
 
 #javascript:hover {
-    background: #f7e018!important;
+    background: #f7e018 !important;
     /* box-shadow: 10px 20px 100px rgba(199, 186, 44, 0.545); */
 }
 
 #css:hover {
-    background: #88b4fc!important;
+    background: #88b4fc !important;
     /* box-shadow: 10px 20px 100px rgba(44, 165, 199, 0.545); */
 }
 
 #ionic:hover {
-    background: #84b6f4!important;
+    background: #84b6f4 !important;
     /* box-shadow: 10px 20px 100px rgba(44, 93, 199, 0.545); */
 }
+
 .seccion3 {
     width: 90%;
     margin: auto;
-    height: 100vh;
+    height: 120vh;
     color: white;
 }
 
@@ -452,7 +458,12 @@
 .seccion4 {
     padding: 50px;
     height: 100%;
+    height: 100vh;
+    display: inline-grid;
     padding-bottom: 50px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
 }
 
 .seccion4 img {
@@ -530,19 +541,31 @@
 
 /*seccion5*/
 
-#contact {
-    background: url('../img/wallpaper.jpg');
-}
 
 .seccion5 {
-    color: white;
-    height: 100vh;
-    width: 70%;
+    color: black;
+    height: 100%;
+    padding-top: 80px;
+    width: 100%;
     margin: auto;
+    padding-bottom: 100px;
+}
+
+.seccion5 .left {
+    background: rgb(99, 178, 253);
+    background: -moz-linear-gradient(180deg, rgba(99, 178, 253, 1) 4%, rgba(99, 178, 253, 1) 16%, rgba(54, 137, 215, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(99, 178, 253, 1) 4%, rgba(99, 178, 253, 1) 16%, rgba(54, 137, 215, 1) 100%);
+    background: linear-gradient(180deg, rgba(99, 178, 253, 1) 4%, rgba(99, 178, 253, 1) 16%, rgba(54, 137, 215, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#63b2fd", endColorstr="#3689d7", GradientType=1);
+    height: 100%;
+}
+
+.seccion5 img {
+    width: 80%;
 }
 
 .seccion5 a {
-    color: white;
+    color: black;
 }
 
 
@@ -558,8 +581,9 @@
     box-shadow: 0px 0px 8px 1px #00000000;
 }
 
-.seccion5 h1 {
-    color: white;
+.seccion5 h2 {
+    color: black;
+    font-size: 60px;
 }
 
 .social {
@@ -582,55 +606,17 @@ form {
     width: 100%;
 }
 
-.contact input {
-    border: 0;
-    padding: 10px;
-    width: 94%;
-    border: solid 2px #ccc;
-    margin: 20px 0px 20px 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 8px;
-    justify-content: center;
+#contactme {
+    background: url(../img/getintouch2.png);
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.contact input:focus {
-    outline: none !important;
-    border-color: #111111;
-}
-
-.contact textarea {
-    border: 0;
-    padding: 10px;
-    width: 94%;
-    border: solid 2px #ccc;
-    margin: 20px 0 20px 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 8px;
-}
-
-.contact textarea:focus {
-    outline: none !important;
-    border-color: #111111;
-    color: #111111;
-}
-
-.contact button {
-    background: black;
-    color: white;
-    border: 0;
-    padding: 16px 40px;
-    border-radius: 25px;
-}
-
-.contact button:hover {
-    cursor: pointer;
-}
-
-.contact span {
-    font-weight: 600;
-}
 
 input:-internal-autofill-selected {
     background-image: none !important;
