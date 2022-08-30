@@ -14,6 +14,9 @@
     padding-bottom: 10vh;
 }
 
+
+
+
 /* 
 #main {
     background: url(../img/object-gradient.png);
@@ -379,7 +382,7 @@
 
 
 .skills li {
-    background-color: whitesmoke !important;
+    background-color: white!important;
     padding: 40px 40px;
     margin: 10px;
     border-radius: 15px;
@@ -489,8 +492,11 @@
 }
 
 .seccion3 p {
+    font-size: 3rem;
     color: black;
-    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 300;
+    line-height: 50px;
 }
 
 .seccion3 img {
@@ -498,15 +504,19 @@
 }
 
 .seccion3 .left {
-    text-align: center;
-    padding: 20px;
-    width: 30%;
-    margin-right: 0;
+    text-align: start;
+    padding: 80px;
+    width: 70%;
+    margin: auto;
 }
 
 .seccion3 .right {
     padding: 0px;
-    margin-left: 0;
+    margin: 0;
+    display: inline-flex;
+    width: 30%;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 @media screen and (max-width:799px) {
@@ -565,6 +575,12 @@
     align-content: center;
 }
 
+
+#about2 {
+    background: url('../img/gradient4.jpg');
+    background-size: 110% 110%;
+}
+
 .seccion4 img {
     width: 100%;
 }
@@ -603,7 +619,7 @@
 }
 
 .seccion4 li {
-    background: whitesmoke;
+    background: white;
     margin: 10px;
     list-style-type: none;
     display: inline-flex;
@@ -647,7 +663,6 @@
     padding-top: 80px;
     width: 100%;
     margin: auto;
-    padding-bottom: 100px;
 }
 
 .seccion5 .left {
@@ -666,6 +681,11 @@
 .seccion5 a {
     color: white;
     text-decoration: none;
+    display: inline-grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 
@@ -725,8 +745,16 @@ textarea {
     font-family: system-ui;
 }
 
+#contactme {
+    background: white;
+    padding: 80px;
+    border-radius: 25px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
 #getintouch-container {
-    background: url(../img/object-gradient.png);
+    background: white;
     object-fit: cover;
     background-size: 100% 100%;
 
@@ -736,4 +764,33 @@ textarea {
     justify-content: center;
     justify-items: center;
     align-content: center;
+}
+
+.contact {
+    padding: 20px;
+    margin: 10px;
+    color: #000!important;
+    border-radius: 50%;
+    background: transparent;
+    transition: background 0.5s, color 0.5s;
+}
+
+.contact:hover {
+    background: #000;
+    color: white!important;
+}
+
+footer {
+    background: white;
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 10vh;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
 }

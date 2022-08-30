@@ -9,20 +9,21 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/22c76fdb15.js" crossorigin="anonymous"></script>
+    <script src="js/funtion.js"></script>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Noelí Rodríguez Morales</title>
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header" id="header">
+        <nav id="nav">
             <div class="logo">
                 <a href="" class="logo-url">
                     <img src="img/profile1white.png" alt="">
                     <!-- <span>bewev</span> -->
                 </a>
             </div>
-            <div class="menu">
+            <div class="menu" id="menu">
                 <ul>
                     <li class="list">
                         <a href="#about">About</a>
@@ -31,7 +32,7 @@
                         <a href="#services">Services</a>
                     </li>
                     <li class="list">
-                        <a href="">Portfolio</a>
+                        <a href="#my-projects">Portfolio</a>
                     </li>
                     <li class="list">
                         <a href="">Contact</a>
@@ -164,23 +165,15 @@
             </div>
         </div>
     </section>
-    <section class="container">
-        <div class="seccion3 flex" id="dark">
-            <div class="left">
-                <img src="img/object-pc.png" alt="" srcset=""></>
-            </div>
-            <div class="right">
-                <p style="color:#0071e3;">Titulo</p>
-                <h1>Design</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, veniam eligendi laboriosam alias
-                    dolore nisi perspiciatis illo et nesciunt dolores possimus quibusdam illum porro consequuntur enim
-                    vel praesentium iure consectetur.
-                    Libero soluta temporibus ad sunt omnis quasi magnam ducimus ex accusamus accusantium? Placeat
-                    quaerat, beatae voluptatibus nulla voluptas, ex modi vel aliquid non et rem consequatur! Incidunt
-                    assumenda ullam magnam?</p>
+    <seccion class="container">
+        <div class="seccion-2 flex" id="about2">
+            <div class="fulltext">
+                <p class="subtitle">Hello World! 👋</p>
+                <p>I'm Noelí Rodríguez Morales, a frontend web developer who likes to understand people, solve
+                    problems and craft meaningful experiences.</p>
             </div>
         </div>
-    </section>
+    </seccion>
     <section class="container">
         <div class="seccion4" id="my-projects">
             <div class="info" id="services">
@@ -319,7 +312,8 @@
             <div class="info" id="contactme">
                 <span class="getintouch">
                     <h2>Have a project?</h2>
-                    <p style="margin-bottom: 40px; margin-top: 20px;">Although I’m not currently looking for any new opportunities, my
+                    <p style="margin-bottom: 40px; margin-top: 20px;">Although I’m not currently looking for any new
+                        opportunities, my
                         inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to
                         get back to you!</p>
                     <a id="getintouch" class="button" href="mailto:noe.rmorales98@gmail.com">Get in touch</a>
@@ -333,8 +327,18 @@
                         </a>
                     </span>
                     <span>
-                        <a href="">
-                            <i class="fa-solid fa-envelope"></i>
+                        <a href="" class="contact">
+                            <i class="fa-solid fa-envelope-open"></i>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="" class="contact">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="" class="contact">
+                            <i class="fa-brands fa-github"></i>
                         </a>
                     </span>
                 </span>
@@ -342,35 +346,12 @@
         </div>
     </section>
 
-    <footer class="footer-distributed">
-
-        <div class="footer-right">
-
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
-
+    <footer>
+        <div class="pie">
+            <a href="https://github.com/noermorales98" target="_blank">Design & built by Noeli Rodríguez</a>
         </div>
-
-        <div class="footer-left">
-
-            <p class="footer-links">
-                <a class="link-1" href="#">Home</a>
-
-                <a href="#">About</a>
-
-                <a href="#">Services</a>
-
-                <a href="#">Portfolio</a>
-
-                <a href="#">Contact</a>
-            </p>
-
-            <p>Company Name &copy; 2015</p>
-        </div>
-
     </footer>
+
 </body>
 
 </html>

@@ -12,17 +12,28 @@ nav {
     justify-content: space-around;
 }
 
+#header{
+    transition: top 0.5s, box-shadown 0.5s, height 0.5s;
+}
+
 header {
     max-width: 100%;
     width: 100%;
     margin: 0;
     background: #e8ebf2;
-    /* box-shadow: 1px 5px 16px 0px #8080801c; */
+    box-shadow: none;
     height: 15vh;
     align-items: center;
     display: block;
     justify-content: center;
     align-content: center;
+    transition: top 0.5s, box-shadown 0.5s, height 0.5s;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .logo {
@@ -60,6 +71,7 @@ header {
 .menu li {
     padding: 20px;
     list-style-type: none;
+    transition: all ease .2s;
 }
 
 .menu li a {
