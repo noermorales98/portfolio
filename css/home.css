@@ -152,6 +152,10 @@
     animation: AnimationName 7s ease infinite;
 }
 
+#aboutme{
+    height: 90vh;
+    padding-bottom: 0;
+}
 @-webkit-keyframes AnimationName {
     0% {
         background-position: 0% 44%
